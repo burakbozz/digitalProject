@@ -10,6 +10,7 @@ model = tf.keras.applications.MobileNetV2(weights='imagenet', include_top=True)
 
 # Kalori veritabanı
 calorie_data = {
+    "apple":52,
     "pizza": 266,
     "burger": 295,
     "cheeseburger": 300,
